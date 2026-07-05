@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .widgetdiv .content-box-head {
-  background-color: #172229 !important;
+  background-color: #0b0b0b !important;
   color: #D77610 !important;
   padding-bottom: 1px !important;
   padding-top: 1px !important;
@@ -2050,7 +2050,7 @@ th {
     font-family: 'SourceSansProSemibold';
     font-weight: normal;
     border-bottom: 1px solid #191919;
-    background-color: #172229;}
+    background-color: #0b0b0b;}
   .table > tbody + tbody {
     border-top: 2px solid #eee; }
   .table .table {
@@ -3161,7 +3161,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #172229;
+  background-color: #0b0b0b;
   color: #bac3ca;
   border-left: 1px solid #191919;
   border-right: 1px solid #191919;
@@ -4666,7 +4666,7 @@ a.list-group-item-danger {
   border-bottom: 1px solid #191919;
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
-  background-color: #172229; }
+  background-color: #0b0b0b; }
 
   .panel-heading > .dropdown .dropdown-toggle {
     color: inherit; }
@@ -4681,7 +4681,7 @@ a.list-group-item-danger {
 
 .panel-footer {
   padding: 10px 15px;
-  background-color: #172229;
+  background-color: #0b0b0b;
   border-top: 1px solid #191919;
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px; }
@@ -5699,7 +5699,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 2;
-  background-color: #172229;
+  background-color: #0b0b0b;
   border-bottom: 1px solid #171717;
   -webkit-box-shadow: 0px 3px 3px rgba(17, 17, 17, 0.8);
   box-shadow: 0px 3px 3px rgba(17, 17, 17, 0.8); }
@@ -5714,7 +5714,7 @@ body {
     height: 100%; }
 .page-content-head .container-fluid {
   color:#bac3ca;
-  background-color: #172229;
+  background-color: #0b0b0b;
   margin-left: 20px;
   margin-right: 20px;
   border-top: 1px solid #191919;
@@ -5741,7 +5741,7 @@ body {
   padding: 7px 0px 21px 0px; }
 
 .page-side {
-  background: #172229;
+  background: #0b0b0b;
   border:none;
   height: 100% !important;
   height: calc(100% - 52px) !important;
@@ -5764,7 +5764,7 @@ body {
   z-index: 2;
   position: fixed;
   height: 20px;
-  background-color: #172229;
+  background-color: #0b0b0b;
   color:#bac3ca;
   border-top: 1px solid #191919;
 }
@@ -5832,7 +5832,7 @@ body {
   border: 1px solid #191919;
   max-width: 400px;
   margin: 100px auto 15px auto;
-  background-color: #172229;
+  background-color: #0b0b0b;
   -webkit-box-shadow: 5px 5px 5px rgba(17, 17, 17, 0.8);
   box-shadow: 5px 5px 5px rgba(17, 17, 17, 0.8); }
 .login-modal-head {
@@ -5896,7 +5896,7 @@ main.page-content.col-lg-12 {
 
 #navigation.col-sidebar-left > div.row > nav.page-side-nav {
   width:70px;
-  background-color:#172229 !important;
+  background-color:#0b0b0b !important;
   height:100% !important;
   border-right: 1px solid #191919;
 }
@@ -6443,7 +6443,7 @@ h3:hover, h3:focus {
 }
 
 #chart,#chart_intf_in,#chart_intf_out,#chart_top_ports,#chart_top_sources,#traffic_graph_widget_chart_in,#traffic_graph_widget_chart_out {
-  background-color: #172229;
+  background-color: #0b0b0b;
   border: 1px solid #191919;
 }
 
@@ -6559,12 +6559,12 @@ ul.jqtree-tree .jqtree-title {
 }
 
 .interface-table {
-  background-color: #172229 !important;
+  background-color: #0b0b0b !important;
   border: 0.1px solid #191919 !important;
 }
 
 .modal-side-settings {
-  background-color: #172229 !important;
+  background-color: #0b0b0b !important;
 }
 
 [role="listbox"] {
