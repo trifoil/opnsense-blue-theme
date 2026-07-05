@@ -4525,7 +4525,7 @@ a.list-group-item {
   a.list-group-item:hover, a.list-group-item:focus {
     text-decoration: none;
     color: #bac3ca;
-    background-color: #0e181e; }
+    background-color: #0b0b0b; }
 
     a.list-group-item:hover:before, a.list-group-item:focus:before {
       background-color: #12222B;
@@ -5049,7 +5049,7 @@ button.close {
 .modal-body {
   position: relative;
   padding: 5px;
-  background-color: #0e181e;}
+  background-color: #0b0b0b;}
 .modal-body .table-hover > tbody > tr:hover > td,
 .modal-body .table-hover > tbody > tr:hover > th {
   background-color: #263640;
@@ -5058,7 +5058,7 @@ button.close {
 .modal-footer {
   padding: 5px;
   text-align: right;
-  background-color: #0e181e;
+  background-color: #0b0b0b;
   border-top: 1px solid inherit; }
   .modal-footer:before, .modal-footer:after {
     content: " ";
@@ -5681,8 +5681,8 @@ html, body {
   height: 100%;
   font-family: 'SourceSansProRegular';
   scrollbar-width: thin;
-  scrollbar-color: #1c2931 #0e181e;
-  background-color: #0e181e;
+  scrollbar-color: #1c2931 #0b0b0b;
+  background-color: #0b0b0b;
 }
 
 body {
@@ -5948,7 +5948,7 @@ main.page-content.col-lg-12 {
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse.in > a.list-group-item[aria-expanded="true"],
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse.in > div.collapse.in > a.list-group-item.menu-level-3-item.active {
   color: #d77610 !important;
-  background-color: #0e181e !important;
+  background-color: #0b0b0b !important;
 }
 
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse > a.list-group-item,
@@ -5973,7 +5973,7 @@ main.page-content.col-lg-12 {
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse.in > div.collapse.in > a.list-group-item:hover, a.list-group-item:focus {
   text-decoration: none !important;
   color: #D77610 !important;
-  background-color: #0e181e !important;
+  background-color: #0b0b0b !important;
 }
 
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse.in > a.list-group-item.active-menu-title,
@@ -5982,7 +5982,7 @@ main.page-content.col-lg-12 {
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.collapse.in > a.list-group-item:focus,
 #navigation.col-sidebar-left > div > nav > #mainmenu > div > div.active-menu.collapse.in >a.list-group-item.active {
   color: #D77610 !important;
-  background-color: #0e181e !important;
+  background-color: #0b0b0b !important;
 }
 
 /* Sub Level One */
@@ -6182,11 +6182,11 @@ button.toggle-sidebar {
 .active-menu-title, .active-menu a {
   text-decoration: none;
   position: relative;
-  background-color: #0e181e; }
+  background-color: #0b0b0b; }
   .active-menu-title:before, .active-menu a:before {
     width: 3px; }
   .active-menu-title.active, .active-menu a.active {
-	background-color: #0e181e;
+	background-color: #0b0b0b;
   color: #d77610; }
 
 .active-menu a:before {
