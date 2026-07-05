@@ -105,8 +105,8 @@ compact_manifest = {
     "comment": pkg_comment,
     "maintainer": pkg_maintainer,
     "www": "https://github.com/trifoil/opnsense-blue-theme",
-    "abi": "FreeBSD:14:amd64",
-    "arch": "freebsd:14:x86:64",
+    "abi": "FreeBSD:*:*",
+    "arch": "freebsd:*:*",
     "prefix": "/usr/local",
     "flatsize": flatsize,
     "licenselogic": "single",
@@ -142,7 +142,18 @@ rm -f "$STAGE_DIR/file_list.tmp"
 # 1. +COMPACT_MANIFEST and +MANIFEST must be the first files in the archive.
 # 2. File owner/group must be root/wheel (0/0).
 # 3. File paths inside tar must start with leading slash.
-tar -cvJf "$PKG_FILENAME" -C "$STAGE_DIR" +COMPACT_MANIFEST +MANIFEST --owner=root:0 --group=wheel:0 --transform 's|^usr|/usr|' -P usr
+# Create a list of files (manifests first) and archive only files (no directory entries)
+TAR_LIST="$STAGE_DIR/tar_list.txt"
+rm -f "$TAR_LIST"
+printf "+COMPACT_MANIFEST\n+MANIFEST\n" > "$TAR_LIST"
+# Append all regular files under usr/ (relative paths)
+(cd "$STAGE_DIR" && find usr -type f | sed 's#^#./#') >> "$TAR_LIST"
+
+# Use tar with listfile to ensure manifests are first and only files are archived.
+# Use --transform to add the leading / for the usr tree and set owner/group to root:wheel.
+tar -cvJf "$PKG_FILENAME" -C "$STAGE_DIR" --owner=root:0 --group=wheel:0 --transform 's|^\./usr|/usr|' -P -T "$TAR_LIST"
+
+rm -f "$TAR_LIST"
 
 # Clean up
 rm -rf "$STAGE_DIR"
