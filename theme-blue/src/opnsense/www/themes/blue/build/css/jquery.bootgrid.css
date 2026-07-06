@@ -60,7 +60,7 @@
 .bootgrid-footer .infoBar .btn-group > .btn-group .dropdown-menu .dropdown-item:focus {
   color: #FFF;
   text-decoration: none;
-  background-color: #dd630d;
+  background-color: #015fdb;
 }
 .bootgrid-header .actionBar .btn-group > .btn-group .dropdown-menu .dropdown-item.dropdown-item-checkbox,
 .bootgrid-footer .infoBar .btn-group > .btn-group .dropdown-menu .dropdown-item.dropdown-item-checkbox,
@@ -117,7 +117,7 @@
 }
 .bootgrid-table td.loading,
 .bootgrid-table td.no-results {
-  background: #172229;
+  background: #0b0b0b;
   text-align: center;
 }
 .bootgrid-table th.select-cell,

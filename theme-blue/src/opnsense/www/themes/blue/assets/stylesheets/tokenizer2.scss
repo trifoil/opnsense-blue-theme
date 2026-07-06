@@ -38,7 +38,7 @@
     > {
       .token {
         padding: 0 1.2em 0 5px;
-        background-color: #d77610;
+        background-color: #015fdb;
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
@@ -88,8 +88,8 @@
     }
 
     &:focus, &:hover {
-      border-color: #d77610;
-      background-color: #172229;
+      border-color: #015fdb;
+      background-color: #0b0b0b;
     }
 
     > .token-search > input {
