@@ -51,6 +51,13 @@ body {
   margin: 0;
 }
 
+*, *::before, *::after {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
 @font-face {
   font-family: 'SourceSansProBold';
   src: url("/ui/themes/blue/build/fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff") format("woff"), url("/ui/themes/blue/build/fonts/SourceSansPro-Bold/SourceSansPro-Bold.ttf") format("truetype");
@@ -3351,7 +3358,7 @@ select, textarea {
   font-size: 14px;
   line-height: 1.428571429;
   color: #bac3ca;
-  background-color: #1b272f;
+  background-color: #0b0b0b;
   border: 1px solid #191919;
   border-radius: 3px;
   text-overflow: ellipsis;
@@ -3370,7 +3377,7 @@ input {
     font-size: 14px;
     line-height: 1.428571429;
     color: #bac3ca;
-    background-color: #1b272f;
+    background-color: #0b0b0b;
     border: 1px solid #191919;
     border-radius: 3px;
     text-overflow: ellipsis;
@@ -4780,7 +4787,7 @@ select[multiple].input-lg, .form-horizontal .form-group-lg select[multiple].form
   -ms-user-select: none;
   user-select: none;
   color: #bac3ca;
-  background-color: #1b272f;
+  background-color: #0b0b0b;
   border: 1px solid #191919;
   outline: 0;
 
@@ -5474,7 +5481,7 @@ tbody.collapse.in {
   &.pull-right {
     right: 0;
     left: auto;
-    background-color: #1b272f;
+    background-color: #0b0b0b;
   }
 
   .divider {

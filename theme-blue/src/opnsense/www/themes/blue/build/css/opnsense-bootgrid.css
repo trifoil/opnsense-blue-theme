@@ -18,7 +18,7 @@
 
 .tabulator .tabulator-header .tabulator-col {
   border-right: 1px solid #191919;
-  background-color: #1b272f;
+  background-color: #0b0b0b;
   color: #bac3ca;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .tabulator-row.tabulator-row-odd {
-  background-color: #1b272f;
+  background-color: #0b0b0b;
 }
 
 .tabulator-row.tabulator-row-odd.tabulator-selectable:hover:not(.tabulator-selected) {
@@ -52,7 +52,7 @@
 }
 
 .tabulator-row.tabulator-row-even {
-  background-color: #1b272f;
+  background-color: #0b0b0b;
 }
 
 .tabulator-row.tabulator-row-even.tabulator-selectable:hover:not(.tabulator-selected) {
@@ -64,12 +64,12 @@
 }
 
 .tabulator-row.tabulator-selected {
-  background-color: #1b272f;
+  background-color: #0b0b0b;
 }
 
 .tabulator-row.tabulator-selected:hover {
   cursor: pointer;
-  background-color: #1b272f;
+  background-color: #0b0b0b;
 }
 
 .tabulator .tabulator-alert .tabulator-alert-msg.tabulator-alert-state-msg {
@@ -121,7 +121,7 @@
 }
 
 .tabulator .tabulator-footer .tabulator-page {
-  background-color: #1b272f;
+  background-color: #0b0b0b;
   color: #bac3ca;
 }
 
@@ -282,7 +282,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #1b272f;
+    background: #0b0b0b;
     display: flex;
     justify-content: center;
     align-items: center;
