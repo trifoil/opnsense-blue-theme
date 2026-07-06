@@ -140,13 +140,13 @@
 }
 
 .nvd3.nv-candlestickBar .nv-ticks .nv-tick.positive rect {
-    stroke: #2ca02c;
-    fill: #2ca02c;
+    stroke: #6da3e8;
+    fill: #6da3e8;
 }
 
 .nvd3.nv-candlestickBar .nv-ticks .nv-tick.negative rect {
-    stroke: #d62728;
-    fill: #d62728;
+    stroke: #015fdb;
+    fill: #015fdb;
 }
 
 .with-transitions .nv-candlestickBar .nv-ticks .nv-tick {
@@ -355,11 +355,11 @@ svg.nvd3-svg {
 }
 
 .nvd3.nv-ohlcBar .nv-ticks .nv-tick.positive {
-    stroke: #2ca02c;
+    stroke: #6da3e8;
 }
 
 .nvd3.nv-ohlcBar .nv-ticks .nv-tick.negative {
-    stroke: #d62728;
+    stroke: #015fdb;
 }
 
 
@@ -488,13 +488,13 @@ svg.nvd3-svg {
 }
 
 .nvd3.nv-sparklineplus .nv-maxValue {
-    stroke: #2ca02c;
-    fill: #2ca02c;
+    stroke: #6da3e8;
+    fill: #6da3e8;
 }
 
 .nvd3.nv-sparklineplus .nv-minValue {
-    stroke: #d62728;
-    fill: #d62728;
+    stroke: #015fdb;
+    fill: #015fdb;
 }
 
 .nvd3.nv-sparklineplus .nv-currentValue {
