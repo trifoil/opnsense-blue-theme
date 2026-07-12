@@ -1,5 +1,5 @@
 .btn-pressed, .btn-pressed:hover {
-    background-color: #d94f00;
+    background-color: #015fdb;
     color: white;
 }
 
@@ -75,7 +75,7 @@ td {
     display: inline-block;
     height: 1px;
     width: 70%;
-    background: #d94f00;
+    background: #015fdb;
     margin: 5px;
 }
 
