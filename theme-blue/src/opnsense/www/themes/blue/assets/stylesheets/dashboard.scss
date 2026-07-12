@@ -315,11 +315,29 @@ div {
 
 /* Apply a left-to-right gradient behind known chart containers so
    Chart.js canvases with transparent background show the gradient. */
-#chart, #chart_intf_in, #chart_intf_out, #chart_top_ports, #chart_top_sources, #traffic_graph_widget_chart_in, #traffic_graph_widget_chart_out, #memory-chart, #disk-chart, #firewall-chart, .cpu-canvas-container {
+#chart, #chart_intf_in, #chart_intf_out, #chart_top_ports, #chart_top_sources, #traffic_graph_widget_chart_in, #traffic_graph_widget_chart_out, #memory-chart, #disk-chart, #firewall-chart {
   background: linear-gradient(90deg, var(--chart-gradient-start), var(--chart-gradient-end));
 }
 
 /* Ensure canvases themselves are transparent so the gradient is visible */
 .canvas-container > canvas {
   background: transparent !important;
+}
+
+/* Force CPU plot stroke/fill to theme blue when rendered as SVG (nvd3, sparkline, etc.) */
+.cpu-canvas-container svg path,
+.cpu-canvas-container .nv-groups path.nv-line,
+.cpu-canvas-container .nv-sparkline path,
+.cpu-canvas-container .nv-currentValue,
+.cpu-canvas-container .nv-maxValue {
+  stroke: #015fdb !important;
+  fill: #015fdb !important;
+}
+
+/* Round/pie charts: apply background gradient when specific chart themes are active */
+.high-contrast .nvd3.nv-pie,
+.semantic-groups .nvd3.nv-pie {
+  background: radial-gradient(circle at 30% 30%, var(--chart-gradient-start), var(--chart-gradient-end));
+  border-radius: 50%;
+  padding: 6px;
 }
