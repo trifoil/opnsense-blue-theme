@@ -51,6 +51,31 @@ body {
   margin: 0;
 }
 
+/* Custom scrollbar: blue gradient thumb */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #015fdb 0%, #6da3e8 100%);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.05);
+}
+
+/* Firefox scrollbar */
+html {
+  scrollbar-color: #015fdb transparent;
+  scrollbar-width: thin;
+}
+
 *, *::before, *::after {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
